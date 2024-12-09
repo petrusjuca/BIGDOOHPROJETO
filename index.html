@@ -74,6 +74,11 @@
             background-size: cover;
             position: relative;
         }
+        @media (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll; /* No mobile, o fundo rola com o conteúdo */
+    }
+}
 
         .parallax-text {
             position: absolute;
